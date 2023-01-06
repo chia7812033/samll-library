@@ -1,0 +1,28 @@
+html {
+  padding: 10px;
+}
+
+#add-book {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.book {
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+#display-books {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.remove-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  gap: 5px
+}
